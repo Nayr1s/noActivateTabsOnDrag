@@ -1,0 +1,18 @@
+{
+  "id": "no-activate-on-drag",
+  "name": "No Activate on Tab Drag",
+  "description": "При перетаскивании вкладка не становится активной",
+  "author": "you",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Nayr1s/noActivateTabsOnDrag",
+  "fork": ["zen"],
+  "scripts": {
+    "main.uc.js": {
+      "name": "No Activate on Tab Drag",
+      "description": "Prevents tab activation on drag",
+      "include": ["chrome://browser/content/browser.xhtml"],
+      "loadOrder": 10
+    }
+  },
+  "tags": ["tabs", "productivity"]
+}
